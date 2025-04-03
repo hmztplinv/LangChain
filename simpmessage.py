@@ -13,6 +13,6 @@ messages= [
 
 if __name__ == "__main__":
     response=model.invoke(messages)
-    print(response)
+    # print(response)
     print(response.content)
 
